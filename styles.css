@@ -82,3 +82,22 @@ img {
   margin-bottom: 1.5rem;
   display: inline-block;
 }
+.btn {
+  padding: 0.35rem 0.75rem;
+  border: transparent;
+  background-color: #192f69;
+  border-radius: 0.25rem;
+  color: #e6e8ee;
+  text-transform: capitalize;
+  letter-spacing: 0.05rem;
+}
+@media screen and (max-width: 321px) {
+  .container h2 {
+    font-size: 0.75 rem;
+    font-weight: 700;
+  }
+  .button-container {
+    display: grid;
+    gap: 1rem;
+  }
+}
